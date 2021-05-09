@@ -1,1 +1,1 @@
-# unique-science.github.io
+# uniquescience.github.io
