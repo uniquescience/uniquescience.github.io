@@ -2,6 +2,32 @@
 <html lang="en">
 
 <head>
+    <script type="text/javascript">//<![CDATA[ 
+(function() {
+    var configuration = {
+    "token": "572cdd425151ca93f1e7582b0e9bc091",
+    "excludeDomains": [
+        "yourowndomain.com"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "exitScript": {
+        "enabled": true
+    },
+    "popUnder": {
+        "enabled": true
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script>
     <script src="//cdn.letreach.com/js/main/478441231603cb4d7dff9f7f70421bdd.js"></script>
     <!-- Google Tag Manager --->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
